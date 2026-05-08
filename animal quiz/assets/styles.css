@@ -1,0 +1,30 @@
+body {
+ text-align: center;
+ background: linear-gradient(45deg,papayawhip,indigo,papayawhip);
+ height: 100vh;
+}
+
+h1 {
+ font-size: 50px;
+}
+
+#Animal{
+height: 0px;
+width: 0px;
+}
+
+img {
+ height: 260px;
+ width: 300px;
+ border-radius: 50px;
+}
+
+button {
+height: 75px;
+width: 150px;
+font-size: 25px;
+margin: 5px 0 0 0;
+font-weight: bold;
+border-radius: 30px;
+background-color: steelblue;
+}

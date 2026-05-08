@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="fr"><head>
+
+  <meta charset="UTF-8">
+  <title>Minesweeper</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <h1>Minesweeper</h1>
+  <div id="game"></div>
+  <button onclick="refreshPage()">new game</button>
+
+    <script>
+        // Fonction JavaScript pour rafraîchir la page
+        function refreshPage() {
+            location.reload(); // Recharge la page actuelle
+        }
+    </script>
+  <script src="assets/script.mjs"></script>
+  <h2>regles du jeu : </h2>
+  <p>🎯 Objectif du jeu
+Découvrir toutes les cases libres d’une grille sans cliquer sur une mine. Si tu cliques sur une mine… 💥 c’est perdu.
+  </p><p>
+🧠 Fonctionnement
+La grille est composée de cases cachées.
+
+Certaines contiennent des mines, d’autres sont vides.
+
+Quand tu cliques sur une case vide, elle révèle un chiffre indiquant le nombre de mines adjacentes (dans les 8 cases autour).
+
+Tu dois déduire où se trouvent les mines et marquer ces cases avec un drapeau (clic droit).
+</p><p>
+🕹️ Contrôles
+Clic gauche : découvrir une case.
+
+Clic droit : poser ou retirer un drapeau.
+
+Chording : si tu as mis le bon nombre de drapeaux autour d’un chiffre, tu peux cliquer sur ce chiffre (clic gauche + droit simultané) pour ouvrir les autres cases autour automatiquement.
+</p><p>
+🧩 Astuces de logique
+Le fameux schéma 1-2-1 : si tu vois une ligne de chiffres 1-2-1, les mines sont souvent sous les "1".
+
+Le chiffre 0 révèle automatiquement toutes les cases adjacentes.
+
+Si tu es bloqué, parfois il faut deviner… mais les pros savent repérer les motifs récurrents.
+  </p>
+ <footer>
+        <p>© 2025 it. Tous droits réservés.</p>
+        <a href="vue.html"> hep hep hep regarde en dessou le nombre de  </a>
+         
+         
+    </footer>
+    </body>
+    </html>

@@ -1,0 +1,50 @@
+body {
+    position: fixed;
+    margin: 0;
+    user-select: none;
+    -webkit-user-select: none;
+   }
+   
+   .pads {
+    position: fixed;
+    border-radius: 50%;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+   }
+   
+   #touchPad {
+    border: 3px FROZEN black;
+    
+    width: 130px;
+    height: 130px;
+    opacity: 0.1;
+    background-color: WHITE;
+    
+   }
+   
+   #padDot {
+    border: 3px solid black;
+    display: none;
+    width: 25px;
+    height: 25px;
+    
+    opacity: 0.5;
+    background-color: #f2f2f2;
+    
+    
+   }
+   
+   #tank1 {
+    width: 30px;
+    height: 50px;
+    
+    position: absolute;
+   }
+   
+   #navbar-iframe-container {
+    display: none;
+   }
+ 

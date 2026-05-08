@@ -1,0 +1,105 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #050801;
+    height: 80vh;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    background: -webkit-linear-gradient(100deg, rgb(49, 174, 231), rgb(115, 43, 209));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Baloo Da 2', cursive;
+}
+h3{
+    text-align: center;
+    background: -webkit-linear-gradient(100deg, rgb(49, 174, 231), rgb(115, 43, 209));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Baloo Da 2', cursive;
+}
+div.all-card{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+table{
+    border-spacing: 10px;
+}
+.card{
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid black;
+    background: linear-gradient(130deg, rgb(49, 174, 231), rgb(160, 115, 219));
+    padding: 2em 1em;
+}
+.card span{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    opacity: 0;
+}
+a{
+    font-family: sans-serif;
+    font-weight: 500px;
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: #03e9f4;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+a:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+}
+a span{
+    position: absolute;
+    display: block;
+}
+.credits{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+button{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background: #050801;
+  border: none;
+  font-family: sans-serif;
+  font-weight: 500px;
+  outline: none;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px 8px;
+  color: #03e9f4;
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 50px;
+  transition: 0.5s;
+}
+button:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+  <title>calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="assets/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
+ </head>
+ <body>
+  <input id="result" placeholder="0" disabled="">
+  <div class="pad_calculator">
+   <div class="conteneir">
+    
+     <button class="pad" id="clear_button">C</button>
+     <button class="pad" id="back_btn">></button>
+     
+     <button class="pad" id="change-sign-btn">±</button>
+     
+     <button class="right" id="plus-btn" onclick="calc(' / ');">÷</button>
+     
+     <button class="special" onclick="Paren()">()</button>
+     
+    
+    <br>
+    
+     <button class="pad" onclick="calc(7)">7</button>
+     
+     <button class="pad" onclick="calc(8)">8</button>
+     
+     <button class="pad" onclick="calc(9)">9</button>
+     
+     <button class="right" onclick="calc(' * ')">×</button>
+     
+     <button class="special" onclick="round()">R</button>
+     
+    
+    <br>
+    
+     <button class="pad" onclick="calc(4)">4</button>
+     
+     <button class="pad" onclick="calc(5)">5</button>
+     
+     <button class="pad" onclick="calc(6)">6</button>
+     
+     <button class="right" onclick="calc(' - ')">-</button>
+     
+     <button class="special" onclick="calc(" -")"="">-</button>
+     
+    
+    <br>
+    
+     <button class="pad" onclick="calc(1)">1</button>
+     
+     <button class="pad" onclick="calc(2)">2</button>
+     
+     <button class="pad" onclick="calc(3)">3</button>
+     
+     <button class="right" onclick="calc(' + ')">+</button>
+     
+     <button class="special" onclick="RootSquare()">√</button>
+     
+    
+    <br>
+    
+     <button class="large" onclick="calc(0)">0</button>
+     
+     <button class="pad" onclick="calc(" .")"="">.</button>
+     
+     <button class="right" onclick="result()">=</button>
+     
+     <button class="special" onclick="calc('²')">e²</button>
+     
+    
+    <p id="msg_alert"><span>× Error -
+     </span><span id="alert"></span> -
+     <button class="cancel_alert" onclick="cancel()">OK</button></p>
+   </div>
+  </div>
+  <button class="style1" id="btn_history" onclick="historyAnimations()">Show
+   history</button>
+  <div class="histoty" id="histoty">
+   <div class="contener-history">
+    <h1>Your history : </h1>
+    <div>
+     <h3 id="message-h3">You haven't done
+      any calculations</h3>
+     <ol id="ol-history" type="I">
+     </ol>
+    </div>
+   </div>
+  </div>
+  <div class="new-up" id="new-up">
+   <span> Info : </span><span class="btn-cancel-news" id="btn-cancel-news">×</span>
+   <ul>
+    <li>If parentheses is bugged please
+     clear the calculs</li>
+   </ul>
+  </div>
+  <script src="assets/script.mjs"></script>
+  <p> DESIGNED BY DANIEL</p>
+  </body>
+  </html>

@@ -1,0 +1,83 @@
+body {
+ background-color: #F2F2F2;
+}
+
+h1 {
+text-align: center;
+color: darkSlateBlue;
+}
+
+.chosen{
+border: 2px solid red;
+font-size: 55px;
+}
+
+.gameBox{
+border: 1px solid blue;
+text-align: center;
+padding: 15px;
+}
+
+span{
+font-size: 50px;
+margin: 20px;
+}
+
+.card{
+display: inline-block;
+position: relative;
+margin: 5px;
+border: 1px solid black;
+width: 100px;
+height: 100px;
+border-radius: 5px;
+background-color: #CEECF5;
+padding: 0;
+}
+
+.card span{
+padding: 0;
+margin: 0 auto;
+line-height: 100px;
+}
+
+.hide{
+filter: opacity(0%);
+transition: filter 3s;
+
+}
+
+.show{
+visibility: visible;
+transition: visibility 1s;
+}
+
+button{
+margin-top: 20px;
+font-size: 30px;
+font-weight: bold;
+font-family: fantasy;
+color: darkSlateBlue;
+}
+
+.lose{
+filter: grayscale(100%);
+}
+
+#result{
+display: none;
+position: relative;
+font-size: 50px;
+font-weight: bold;
+line-height: 100px;
+margin: 5px;
+border: 1px solid black;
+width: 330px;
+height: 100px;
+border-radius: 5px;
+background-color: #CEECF5;
+padding: 0;
+z-index: 99;
+transform:translateY(-250px);
+}
+

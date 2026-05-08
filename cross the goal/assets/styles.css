@@ -1,0 +1,14 @@
+canvas {
+      border: 1px solid black;
+      width: 100%;
+    }
+    
+    * {
+   -webkit-user-select: none; /*disable text selection */
+    }
+  
+.ass{
+    font-size:1.5em;
+    text-shadow: 0 5px 10px green,
+                 2px 2px 5px blue;
+ }
